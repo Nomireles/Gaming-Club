@@ -1,272 +1,271 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- bootstrap via cdn -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+            crossorigin="anonymous">
+        <!--  fuente iconos -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            />
+        <!-- css local -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- fuentes -->
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Oswald">
+        <title>Gaming Club</title>
+    </head>
+    <body>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- bootstrap via cdn -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-  <!--  fuente iconos -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-  <!-- css local -->
-  <link rel="stylesheet" href="css/style.css">
-  <!-- fuentes -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-  <title>Gaming Club</title>
-</head>
+        <header id="Header" class="header">
+              <img src="img/Icon/Logo_Pag.png" class="logo" alt="LOGO E-SPORTS">
+              <ul class="nav-links">
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#Noticias">E-SPORTS</a></li>
+                <li><a href="paginas/review.html">REVIEW</a></li>
+                <li><a href="paginas/Juegos.html">JUEGOS</a></li>
+                <li><a href="paginas/iniciar.html">CUENTA</a></li>
+              </ul>
+          </header>
 
-<body>
-  <header class="header">
-    <div class="logo">
-      <img src="icon/Logo_Pag.png" alt="LOGO E-SPORTS">
-    </div>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="#">INICIO</a></li>
-        <li><a href="#Noticias">E-SPORTS</a></li>
-        <li><a href="paginas/review.html">REVIEW</a></li>
-        <li><a href="paginas/iniciar.html">CUENTA</a></li>
-      </ul>
-    </nav>
 
-  </header>
-  <h1 id="Titulo">NOTICIAS DEL MUNDO DEL GAMING</h1>
-  <div id="carouselExampleIndicators" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-        aria-label="Slide 4"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-        aria-label="Slide 5"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
-        aria-label="Slide 6"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active d-item">
-        <a href="https://youtu.be/_y9MpNcAitQ" target="_self">
-          <img src="img/cs2.png" class="d-block w-100 h-95  d-img" alt="slide 0">
-        </a>
-        <div class="carousel-caption mt-4">
-          <h2 class="display-1 fw-bolder text-uppercase">
-            counter strike 2
-          </h2>
-          <p class="mt-5 fs-3 text-uppercase">
-            Salió el primer trailer de counter strike 2
-          </p>
-        </div>
-      </div>
-      <div class="carousel-item d-item">
-        <a href="https://www.ea.com/es-es/games/apex-legends/news/sun-squad-collection-event" target="_self">
-          <img src="img/apex_event.jpg" class="d-block w-100 h-95  d-img" alt="slide 1">
-        </a>
-        <div class="carousel-caption mt-4">
-          <h2 class="display-1 fw-bolder text-uppercase">
-            Apex Legends
-          </h2>
-          <p class="mt-5 fs-3 text-uppercase">
-            El nuevo evento de apex legens se viene con algo refrescante
-          </p>
-        </div>
-      </div>
-      <div class="carousel-item d-item">
-        <a href="https://lolesports.com/standings/lck/lck_spring_2023/playoffs" target="_self">
-          <img src="img/LCK.png" class="d-block w-100 h-95  d-img" alt="slide 2">
-        </a>
-        <div class="carousel-caption mt-4">
-          <h2 class="display-1 fw-bolder text-uppercase">
-            Competitivo LOL
-          </h2>
-          <p class="mt-5 fs-3 text-uppercase">
-            Mira aqui las novedades de la LCK de este año 2023
-          </p>
-        </div>
-      </div>
-      <div class="carousel-item d-item">
-        <a href="https://valorantesports.com/schedule" target="_self">
-          <img src="img/VCT.png" class="d-block w-100 h-95  d-img" alt="slide 3">
-        </a>
-        <div class="carousel-caption mt-4">
-          <h2 class="display-1 fw-bolder text-uppercase">
-            Valorant Champions Tour
-          </h2>
-          <p class="mt-5 fs-3 text-uppercase">
-            Revisa aca el calendario de la VCT de valorant
-          </p>
-        </div>
-      </div>
-      <div class="carousel-item d-item">
-        <a href="https://lolesports.com/standings/lla/" target="_self">
-          <img src="img/lla.png" class="d-block w-100 h-95  d-img" alt="slide 4">
-        </a>
-        <div class="carousel-caption mt-4">
-          <h2 class="display-1 fw-bolder text-uppercase">
-            LLA
-          </h2>
-          <p class="mt-5 fs-3 text-uppercase">
-            Mira el calendario y las posiciones de la Liga Latinoamérica de League of Legends
-          </p>
-        </div>
-      </div>
-      <div class="carousel-item d-item">
-        <a href="https://www.twitch.tv/lcs" target="_self">
-          <img src="img/LCS.png" class="d-block w-100 h-95  d-img" alt="slide 5">
-        </a>
-        <div class="carousel-caption mt-4">
-          <h2 class="display-1 fw-bolder text-uppercase">
-            La League Championship Series
-          </h2>
-          <p class="mt-5 fs-3 text-uppercase">
-            Mira en vivo la lcs en twitch
-          </p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-  <!--Noticias-->
-  <h1 id="Noticias" class="noticias-e-sports">NOTICIAS E-SPORTS</h1>
-  <div>
-    <div class="contenedor-noticias">
-      <p> </p>
-      <h3 class="titulos-noticias">League of Legends</h3>
-      <p> </p>
-      <div class="contenedor-item">
-        <a href="https://www.twitch.tv/leagueoflegends" target="_blank">
-          <img src="icon/Logo_Lol.jpg" alt="Logo lol" class="icono">
-        </a>
-        <p>
-          Los deportes electrónicos o E-Sports han experimentado un crecimiento exponencial en los últimos años, y el
-          popular juego League of Legends (LoL) no ha sido la excepción. En 2023, los E-Sports de LoL han alcanzado un
-          nivel de popularidad nunca antes visto, atrayendo a millones de jugadores y aficionados de todo el mundo.
-          La competencia en los E-Sports de LoL es feroz, y los equipos de jugadores profesionales se preparan a diario
-          para enfrentarse en torneos y ligas. Los jugadores deben tener una gran habilidad y estrategia para ganar, y
-          esto se debe en gran parte al amplio abanico de personajes jugables y las diferentes combinaciones de
-          habilidades que se pueden utilizar para ganar partidas.
-          Además, la tecnología de realidad virtual y aumentada ha permitido que los jugadores puedan sumergirse aún más
-          en el mundo de LoL, lo que les permite sentir que son parte del juego y mejorar su experiencia de juego
-          En cuanto a los torneos y ligas de E-Sports de LoL en 2023, las competiciones son cada vez más grandes y con
-          mayores premios en efectivo. Los equipos compiten en eventos regionales, nacionales e internacionales, lo que
-          les permite ganar puntos y calificar para torneos más grandes y prestigiosos. Los jugadores de LoL son
-          considerados como celebridades y muchos de ellos han alcanzado fama mundial, creando una gran base de
-          fanáticos y seguidores.
-          En resumen, los E-Sports de LoL en 2023 son una industria en constante evolución, y su popularidad y
-          crecimiento continuarán en los próximos años. Los jugadores profesionales de LoL han demostrado su habilidad y
-          dedicación, y las competiciones de E-Sports de LoL son cada vez más emocionantes e impresionantes, atrayendo a
-          un público cada vez mayor y ampliando el alcance de la comunidad de jugadores.
-          HAZ CLICK EN LA IMAGEN PARA IR A LA CATEGORIA OFICIAL DE LEAGUE OF LEGENDS!!!
-        </p>
-      </div>
-
-      <h3 class="titulos-noticias">Valorant</h3>
-      <p> </p>
-      <div class="contenedor-item">
-        <a href="https://www.twitch.tv/valorant" target="_blank">
-          <img src="icon/Logo_Valorant.png" alt="Logo Valorant" class="icono">
-        </a>
-        <p>
-          Los deportes electrónicos o E-Sports se han expandido enormemente en los últimos años y uno de los juegos más
-          destacados de este género es Valorant. En el 2023, los E-Sports de Valorant han evolucionado a un nivel
-          increíble y se han convertido en una de las competencias más emocionantes y populares de la industria.
-          En Valorant, dos equipos compiten en partidas en línea donde cada jugador elige un personaje con habilidades
-          únicas que complementan al equipo en diferentes roles. El objetivo es plantar o desactivar una bomba en
-          diferentes áreas del mapa mientras que el otro equipo intenta impedirlo. Los jugadores deben trabajar juntos
-          para desarrollar estrategias y reaccionar rápidamente a las acciones de sus oponentes.
-          Los E-Sports de Valorant en 2023 se han vuelto muy competitivos, y los equipos están compuestos por jugadores
-          profesionales que pasan horas entrenando para perfeccionar sus habilidades. Además, la comunidad de Valorant
-          ha demostrado ser muy apasionada, lo que ha llevado a la organización de torneos y eventos en línea y en vivo
-          cada vez más grandes.
-          En cuanto a los torneos y ligas de E-Sports de Valorant en 2023, los eventos son cada vez más grandes y los
-          premios en efectivo son impresionantes. Los equipos luchan por ganar en los eventos nacionales, regionales e
-          internacionales, y las victorias los ayudan a calificar para torneos más grandes. Los jugadores y equipos de
-          Valorant han creado una gran base de fanáticos y seguidores, y los partidos son seguidos por millones de
-          espectadores en todo el mundo.
-          En resumen, los E-Sports de Valorant en 2023 son una industria en constante crecimiento y evolución, con una
-          base sólida de jugadores y seguidores apasionados. La competencia en los torneos es feroz y emocionante, lo
-          que atrae a un público cada vez mayor. Los E-Sports de Valorant ofrecen una experiencia de juego emocionante y
-          desafiante, lo que los convierte en una de las competencias de E-Sports más destacadas en la actualidad.
-          HAZ CLICK EN LA IMAGEN PARA IR AL CANAL OFICIAL DE TWITCH!
-        </p>
-      </div>
-      <h3 class="titulos-noticias">CS:GO</h3>
-      <p> </p>
-      <div class="contenedor-item">
-        <a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/?l=spanish" target="_blank">
-          <img src="icon/Logo_CounterStrike.png" alt="Logo valorant" class="icono">
-        </a>
-        <p>Counter Strike: Global Offensive es uno de los titulos más populares de de valve y tambien para los
-          deportes electrónicos y su competitivo es uno de los más emocionantes e intensos del mundo de los E-Sports.
-          En el competitivo de Counter Strike, dos equipos compiten en partidas de cinco contra cinco, donde uno actúa
-          como equipo terrorista y el otro como equipo antiterrorista. El objetivo del juego varía según el mapa y el
-          modo de juego, pero generalmente consiste en plantar o desactivar una bomba o rescatar o retener a rehenes.
-          Los jugadores deben trabajar en equipo para desarrollar estrategias y reaccionar rápidamente
-          a las acciones de sus oponentes. Los torneos de Counter Strike ofrecen premios en efectivo impresionantes,
-          lo que atrae a jugadores y equipos de todo el mundo y crea una competencia feroz e intensa. Los seguidores de
-          Counter Strike disfrutan de la habilidad y estrategia necesarias para competir a nivel profesional, lo que
-          hace
-          que el competitivo de Counter Strike sea una de las competencias de E-Sports más populares y emocionantes del
-          mundo.
-          HAZ CLICK EN LA IMAGEN PARA IR A LA PÁGINA OFICIAL!!!</p>
-
-      </div>
-
-      <h3 class="titulos-noticias">Apex Legends</h3>
-      <p> </p>
-      <div class="contenedor-item">
-        <a href="https://www.ea.com/es-es/games/apex-legends" target="_blank">
-          <img src="icon/Logo_Apex.png" alt="Logo Valorant" class="icono">
-        </a>
-        <p>Apex Legends es un juego de E-Sports que ha ganado mucha popularidad en los últimos años. En este juego, los
-          jugadores compiten en partidas de tres jugadores en un mapa futurista y caótico donde deben luchar contra
-          otros equipos para ser los últimos en pie. Cada jugador selecciona un personaje con habilidades únicas y deben
-          trabajar en equipo para desarrollar estrategias para vencer a sus oponentes. El competitivo de Apex Legends ha
-          evolucionado en un ambiente muy competitivo, donde los equipos están formados por jugadores profesionales que
-          dedican muchas horas a entrenar y mejorar su juego. Los torneos de Apex Legends son eventos emocionantes donde
-          los equipos luchan por ganar premios en efectivo y el reconocimiento de ser los mejores jugadores de Apex
-          Legends. Con la emoción que brinda la acción en equipo y las habilidades sobrehumanas de los personajes, el
-          competitivo de Apex Legends se ha convertido en una de las competencias de E-Sports más emocionantes del
-          mundo.
-          HAZ CLICK EN LA IMAGEN PARA IR A LA PAGINA OFICIAL!!!</p>
-
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="footer-container">
-      <p class="contac">CONTACTOS</p>
-      <a href="https://www.instagram.com/jereemy.03/" target="_blank">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="https://www.instagram.com/kuduin" target="_blank">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="je.contrerass@duocuc.cl">
-        <i class="far fa-envelope"></i>
-      </a>
-    </div>
-  </footer>
-
-  <!--JavaScript-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-    crossorigin="anonymous"></script>
-</body>
-
+          <h1 id="Titulo">NOTICIAS DEL MUNDO DEL GAMING</h1>
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active d-item">
+                <a href="https://youtu.be/_y9MpNcAitQ" target="_self">
+                  <img src="img/img/cs2.png" class="d-block w-100 h-95  d-img" alt="slide 0">
+                </a>
+                <div class="carousel-caption mt-4">
+                  <h2 class="display-1 fw-bolder text-uppercase">
+                    counter strike 2
+                  </h2>
+                  <p class="mt-5 fs-3 text-uppercase">
+                    Salió el primer trailer de counter strike 2
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item d-item">
+                <a href="https://www.ea.com/es-es/games/apex-legends/news/sun-squad-collection-event" target="_self">
+                  <img src="img/img/apex_event.jpg" class="d-block w-100 h-95  d-img" alt="slide 1">
+                </a>
+                <div class="carousel-caption mt-4">
+                  <h2 class="display-1 fw-bolder text-uppercase">
+                    Apex Legends
+                  </h2>
+                  <p class="mt-5 fs-3 text-uppercase">
+                    El nuevo evento de apex legens se viene con algo refrescante
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item d-item">
+                <a href="https://lolesports.com/standings/lck/lck_spring_2023/playoffs" target="_self">
+                  <img src="img/img/LCK.png" class="d-block w-100 h-95  d-img" alt="slide 2">
+                </a>
+                <div class="carousel-caption mt-4">
+                  <h2 class="display-1 fw-bolder text-uppercase">
+                    Competitivo LOL
+                  </h2>
+                  <p class="mt-5 fs-3 text-uppercase">
+                    Mira aqui las novedades de la LCK de este año 2023
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item d-item">
+                <a href="https://valorantesports.com/schedule" target="_self">
+                  <img src="img/img/VCT.png" class="d-block w-100 h-95  d-img" alt="slide 3">
+                </a>
+                <div class="carousel-caption mt-4">
+                  <h2 class="display-1 fw-bolder text-uppercase">
+                    Valorant Champions Tour
+                  </h2>
+                  <p class="mt-5 fs-3 text-uppercase">
+                    Revisa aca el calendario de la VCT de valorant
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item d-item">
+                <a href="https://lolesports.com/standings/lla/" target="_self">
+                  <img src="img/img/lla.png" class="d-block w-100 h-95  d-img" alt="slide 4">
+                </a>
+                <div class="carousel-caption mt-4">
+                  <h2 class="display-1 fw-bolder text-uppercase">
+                    LLA
+                  </h2>
+                  <p class="mt-5 fs-3 text-uppercase">
+                    Mira el calendario y las posiciones de la Liga Latinoamérica de League of Legends
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item d-item">
+                <a href="https://www.twitch.tv/lcs" target="_self">
+                  <img src="img/img/LCS.png" class="d-block w-100 h-95  d-img" alt="slide 5">
+                </a>
+                <div class="carousel-caption mt-4">
+                  <h2 class="display-1 fw-bolder text-uppercase">
+                    La League Championship Series
+                  </h2>
+                  <p class="mt-5 fs-3 text-uppercase">
+                    Mira en vivo la lcs en twitch
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
+          <!--Noticias-->
+          <h1 id="Noticias" class="noticias-e-sports">NOTICIAS E-SPORTS</h1>
+          <div>
+            <div class="contenedor-noticias">
+              <p> </p>
+              <h3 class="titulos-noticias">League of Legends</h3>
+              <p> </p>
+              <div class="contenedor-item">
+                <a href="https://www.twitch.tv/leagueoflegends" target="_blank">
+                  <img src="img/Icon/Logo_Lol.jpg" alt="Logo lol" class="icono">
+                </a>
+                <p>
+                  Los deportes electrónicos o E-Sports han experimentado un crecimiento exponencial en los últimos años, y el
+                  popular juego League of Legends (LoL) no ha sido la excepción. En 2023, los E-Sports de LoL han alcanzado un
+                  nivel de popularidad nunca antes visto, atrayendo a millones de jugadores y aficionados de todo el mundo.
+                  La competencia en los E-Sports de LoL es feroz, y los equipos de jugadores profesionales se preparan a diario
+                  para enfrentarse en torneos y ligas. Los jugadores deben tener una gran habilidad y estrategia para ganar, y
+                  esto se debe en gran parte al amplio abanico de personajes jugables y las diferentes combinaciones de
+                  habilidades que se pueden utilizar para ganar partidas.
+                  Además, la tecnología de realidad virtual y aumentada ha permitido que los jugadores puedan sumergirse aún más
+                  en el mundo de LoL, lo que les permite sentir que son parte del juego y mejorar su experiencia de juego
+                  En cuanto a los torneos y ligas de E-Sports de LoL en 2023, las competiciones son cada vez más grandes y con
+                  mayores premios en efectivo. Los equipos compiten en eventos regionales, nacionales e internacionales, lo que
+                  les permite ganar puntos y calificar para torneos más grandes y prestigiosos. Los jugadores de LoL son
+                  considerados como celebridades y muchos de ellos han alcanzado fama mundial, creando una gran base de
+                  fanáticos y seguidores.
+                  En resumen, los E-Sports de LoL en 2023 son una industria en constante evolución, y su popularidad y
+                  crecimiento continuarán en los próximos años. Los jugadores profesionales de LoL han demostrado su habilidad y
+                  dedicación, y las competiciones de E-Sports de LoL son cada vez más emocionantes e impresionantes, atrayendo a
+                  un público cada vez mayor y ampliando el alcance de la comunidad de jugadores.
+                  HAZ CLICK EN LA IMAGEN PARA IR A LA CATEGORIA OFICIAL DE LEAGUE OF LEGENDS!!!
+                </p>
+              </div>
+        
+              <h3 class="titulos-noticias">Valorant</h3>
+              <p> </p>
+              <div class="contenedor-item">
+                <a href="https://www.twitch.tv/valorant" target="_blank">
+                  <img src="img/Icon/Logo_Valorant.png" alt="Logo Valorant" class="icono">
+                </a>
+                <p>
+                  Los deportes electrónicos o E-Sports se han expandido enormemente en los últimos años y uno de los juegos más
+                  destacados de este género es Valorant. En el 2023, los E-Sports de Valorant han evolucionado a un nivel
+                  increíble y se han convertido en una de las competencias más emocionantes y populares de la industria.
+                  En Valorant, dos equipos compiten en partidas en línea donde cada jugador elige un personaje con habilidades
+                  únicas que complementan al equipo en diferentes roles. El objetivo es plantar o desactivar una bomba en
+                  diferentes áreas del mapa mientras que el otro equipo intenta impedirlo. Los jugadores deben trabajar juntos
+                  para desarrollar estrategias y reaccionar rápidamente a las acciones de sus oponentes.
+                  Los E-Sports de Valorant en 2023 se han vuelto muy competitivos, y los equipos están compuestos por jugadores
+                  profesionales que pasan horas entrenando para perfeccionar sus habilidades. Además, la comunidad de Valorant
+                  ha demostrado ser muy apasionada, lo que ha llevado a la organización de torneos y eventos en línea y en vivo
+                  cada vez más grandes.
+                  En cuanto a los torneos y ligas de E-Sports de Valorant en 2023, los eventos son cada vez más grandes y los
+                  premios en efectivo son impresionantes. Los equipos luchan por ganar en los eventos nacionales, regionales e
+                  internacionales, y las victorias los ayudan a calificar para torneos más grandes. Los jugadores y equipos de
+                  Valorant han creado una gran base de fanáticos y seguidores, y los partidos son seguidos por millones de
+                  espectadores en todo el mundo.
+                  En resumen, los E-Sports de Valorant en 2023 son una industria en constante crecimiento y evolución, con una
+                  base sólida de jugadores y seguidores apasionados. La competencia en los torneos es feroz y emocionante, lo
+                  que atrae a un público cada vez mayor. Los E-Sports de Valorant ofrecen una experiencia de juego emocionante y
+                  desafiante, lo que los convierte en una de las competencias de E-Sports más destacadas en la actualidad.
+                  HAZ CLICK EN LA IMAGEN PARA IR AL CANAL OFICIAL DE TWITCH!
+                </p>
+              </div>
+              <h3 class="titulos-noticias">CS:GO</h3>
+              <p> </p>
+              <div class="contenedor-item">
+                <a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/?l=spanish" target="_blank">
+                  <img src="img/icon/Logo_CounterStrike.png" alt="Logo valorant" class="icono">
+                </a>
+                <p>Counter Strike: Global Offensive es uno de los titulos más populares de de valve y tambien para los
+                  deportes electrónicos y su competitivo es uno de los más emocionantes e intensos del mundo de los E-Sports.
+                  En el competitivo de Counter Strike, dos equipos compiten en partidas de cinco contra cinco, donde uno actúa
+                  como equipo terrorista y el otro como equipo antiterrorista. El objetivo del juego varía según el mapa y el
+                  modo de juego, pero generalmente consiste en plantar o desactivar una bomba o rescatar o retener a rehenes.
+                  Los jugadores deben trabajar en equipo para desarrollar estrategias y reaccionar rápidamente
+                  a las acciones de sus oponentes. Los torneos de Counter Strike ofrecen premios en efectivo impresionantes,
+                  lo que atrae a jugadores y equipos de todo el mundo y crea una competencia feroz e intensa. Los seguidores de
+                  Counter Strike disfrutan de la habilidad y estrategia necesarias para competir a nivel profesional, lo que
+                  hace
+                  que el competitivo de Counter Strike sea una de las competencias de E-Sports más populares y emocionantes del
+                  mundo.
+                  HAZ CLICK EN LA IMAGEN PARA IR A LA PÁGINA OFICIAL!!!</p>
+        
+              </div>
+        
+              <h3 class="titulos-noticias">Apex Legends</h3>
+              <p> </p>
+              <div class="contenedor-item">
+                <a href="https://www.ea.com/es-es/games/apex-legends" target="_blank">
+                  <img src="img/icon/Logo_Apex.png" alt="Logo Valorant" class="icono">
+                </a>
+                <p>Apex Legends es un juego de E-Sports que ha ganado mucha popularidad en los últimos años. En este juego, los
+                  jugadores compiten en partidas de tres jugadores en un mapa futurista y caótico donde deben luchar contra
+                  otros equipos para ser los últimos en pie. Cada jugador selecciona un personaje con habilidades únicas y deben
+                  trabajar en equipo para desarrollar estrategias para vencer a sus oponentes. El competitivo de Apex Legends ha
+                  evolucionado en un ambiente muy competitivo, donde los equipos están formados por jugadores profesionales que
+                  dedican muchas horas a entrenar y mejorar su juego. Los torneos de Apex Legends son eventos emocionantes donde
+                  los equipos luchan por ganar premios en efectivo y el reconocimiento de ser los mejores jugadores de Apex
+                  Legends. Con la emoción que brinda la acción en equipo y las habilidades sobrehumanas de los personajes, el
+                  competitivo de Apex Legends se ha convertido en una de las competencias de E-Sports más emocionantes del
+                  mundo.
+                  HAZ CLICK EN LA IMAGEN PARA IR A LA PAGINA OFICIAL!!!</p>
+        
+              </div>
+            </div>
+          </div>
+        
+          <footer>
+            <div class="footer-container">
+              <p class="contac">CONTACTOS</p>
+              <a href="https://www.instagram.com/jereemy.03/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.instagram.com/kuduin" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </footer>   
+          <!--JavaScript-->
+          <script src="js/main.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+            crossorigin="anonymous"></script>
+    </body>
 </html>
